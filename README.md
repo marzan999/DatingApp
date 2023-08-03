@@ -20,10 +20,10 @@ flutter run
 
 ## Screenshots
 
-<img width="1080" alt="Screen Shot 2022-08-20 at 2 36 51 PM" src="https://user-images.githubusercontent.com/14290499/185741003-1fc51cc1-0ef2-4c24-8a06-1f33254eb39f.png">
+<!-- <img width="1080" alt="Screen Shot 2022-08-20 at 2 36 51 PM" src="https://user-images.githubusercontent.com/14290499/185741003-1fc51cc1-0ef2-4c24-8a06-1f33254eb39f.png">
 
 
-<img width="1080" alt="Screen Shot 2022-08-20 at 2 37 05 PM" src="https://user-images.githubusercontent.com/14290499/185741008-21f6849c-44b5-4ebe-9ca0-fad0e079578a.png">
+<img width="1080" alt="Screen Shot 2022-08-20 at 2 37 05 PM" src="https://user-images.githubusercontent.com/14290499/185741008-21f6849c-44b5-4ebe-9ca0-fad0e079578a.png"> -->
 
 
 ## Pull Requests
