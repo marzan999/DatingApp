@@ -31,6 +31,34 @@ class _HomePageState extends State<HomePage> {
     'assets/images/user6.png',
   ];
 
+  
+  List<String> name = [
+    'aaaaa',
+    'bbbbb',
+    'ccccc',
+    'ddddd',
+    'eeeee',
+    'fffff',
+    'ggggg',
+    'hhhhh',
+    'iiiii',
+    'jjjjj',
+    'kkkkk',
+  ];
+  List<String> designaction = [
+    '1111111',
+    '222222222',
+    '33333333',
+    '4444444444',
+    '55555555',
+    '666666666',
+    '777777777',
+    '8888888',
+    '99999999',
+    '000000',
+    '12121212',
+  ];
+
   @override
   void initState() {
     super.initState();
@@ -134,9 +162,11 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  void _loadCards() {
+ void _loadCards() {
     for (String image in images) {
-      profile.add(ProfileCard(image: image));
+      var name;
+      var designaction;
+      profile.add(ProfileCard(image: image, name: name.toString(), designaction: designaction.toString(),));
     }
   }
 }

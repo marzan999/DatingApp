@@ -3,8 +3,8 @@ import 'package:dating_app/pages/user_info_page.dart';
 import 'package:flutter/material.dart';
 
 class ProfileCard extends StatelessWidget {
-  const ProfileCard({Key? key, required this.image}) : super(key: key);
-  final String image;
+  const ProfileCard({Key? key, required this.image,required this.name,required this.designaction}) : super(key: key);
+  final String image, name, designaction;
 
   @override
   Widget build(BuildContext context) {
@@ -46,9 +46,9 @@ class ProfileCard extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text('Malena Veronica, 23', style: TextStyle(color: ColorConstants.secondary, fontSize: 24, fontWeight: FontWeight.w500)),
+                  Text(name.toString(), style: TextStyle(color: ColorConstants.secondary, fontSize: 24, fontWeight: FontWeight.w500)),
                   const SizedBox(height: 12,),
-                  Text('Fashion Designer at Victoria Secret', style: TextStyle(color: ColorConstants.secondary, fontSize: 16)),
+                  Text(designaction.toString(), style: TextStyle(color: ColorConstants.secondary, fontSize: 16)),
                 ],
               ),
             ),
